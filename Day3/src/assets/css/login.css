@@ -1,0 +1,76 @@
+
+.body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://kanduevents.com/images/c31b0d4868694c835a9cc09d3f80d099.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
+}
+
+  
+  
+  .layout12 {
+    background-color: rgba(184, 205, 208, 0.8);
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .login1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .form1 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form1 .but {
+    width: 100%;
+    padding: 10px;
+    background-color: #17c5dd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form1 .but:hover {
+    background-color: #18b3d6;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+ 
+  .signup-button {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+
+  .signup-button a {
+    text-decoration: none;
+    color: #138ec3;
+    font-weight: bold;
+  }
+  
+  .signup-button a:hover {
+    text-decoration: underline;
+  }
+.home-in
+{
+  color: aqua;
+}
