@@ -1,0 +1,64 @@
+.feedback-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/6239af8d74f9f77d144ea2f8/255da043-063a-4f55-ba88-e06b62f9da7a/header-02-services-gradient.jpg'); /* Set the path to your background image */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin-top:100px;
+  }
+  
+  
+  .feedback-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .feedback-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .feedback-form input[type="text"],
+  .feedback-form input[type="email"],
+  .feedback-form textarea,
+  .feedback-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .feedback-form select {
+    height: 50px; /* Adjust height as needed */
+  }
+  
+  .feedback-form textarea {
+    height: 150px; /* Adjust height as needed */
+  }
+  
+  .feedback-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .feedback-form button[type="submit"]:hover {
+    background-color: #a0458c;
+  }
+  
+  .feedback-form p {
+    text-align: center;
+    font-size: 18px;
+    color: #ecf1ec;
+  }
+  

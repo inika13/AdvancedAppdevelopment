@@ -1,0 +1,43 @@
+.eve1,.eve2,.eve3,.eve4,.eve5,.eve6
+{
+      color:#000;
+      font-size:15px;
+      margin-left:20px;
+}
+.ev{
+
+    width:340px;
+    height:290px;
+    padding-left: 40px;
+    margin-top:40px;
+    border-radius: 5px;
+    
+}
+.rem{
+    color:#af0101;
+    font-size:20px;
+    padding-right: 140px;
+    padding-top: 40px;
+}
+.main-wrapper1 {
+    position: absolute;
+    right:23.5%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cha {
+    padding: 1rem;
+    color: #ffffff;
+    background-color: rgb(95, 1, 184);
+    border: none;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    margin-top: 50px;
+    margin-left:20px;
+}

@@ -1,0 +1,76 @@
+/* Payment.css */
+
+.payment-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top:100px;
+}
+
+.payment-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.payment-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.payment-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.payment-button:hover {
+  background-color: #0056b3;
+}
+
+.payment-error,
+.payment-success {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.payment-error {
+  background-color: #ffcccc;
+  color: #cc0000;
+}
+
+.payment-success {
+  background-color: #ccffcc;
+  color: #006600;
+}
+
+.payment-back-button {
+  display: block;
+  margin-top: 20px;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.payment-back-button:hover {
+  background-color: #e0e0e0;
+}
