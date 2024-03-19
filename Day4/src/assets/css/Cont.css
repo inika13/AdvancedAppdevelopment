@@ -1,0 +1,86 @@
+.main-wrapper {
+    margin-top: 0px;
+    display: flex;
+   justify-content: center;
+  }
+  
+  .abouts {
+    width: 100%;
+    background: url("https://images.squarespace-cdn.com/content/v1/6239af8d74f9f77d144ea2f8/255da043-063a-4f55-ba88-e06b62f9da7a/header-02-services-gradient.jpg");
+  }
+  
+  .shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flexSB {
+    display: flex;
+    margin-left:5px;
+    justify-content: space-between;
+  }
+  
+  .contact {
+    margin-top:120px;
+    margin-left:50px;
+    background-color: #f7f5f5;
+    padding: 15px;
+  }
+  
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .box {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+ 
+  .faq {
+    margin-top: 50px;
+    margin-left:50px;
+  }
+  
+  .faq h1 {
+    text-align: center;
+    color: #ffffff;
+   
+    margin-bottom: 20px;
+  }
+  
+  .faq h2 {
+    color: #ffffff;
+    font-size:30px;
+    margin-bottom: 10px;
+  }
+  
+  .faq p {
+    color: #000000;
+    
+  }
+  
+ 
+  .auth-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-btn:hover {
+    background-color: #e7d10c;
+  }
+  
+
+  @media (max-width: 768px) {
+    .items {
+      grid-template-columns: 1fr;
+    }
+  }
+  
